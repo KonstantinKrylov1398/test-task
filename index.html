@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test task</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script defer src="./js/timer.js"></script>
+    <script defer src="./js/carousel.js"></script>
+    <script defer src="./js/select.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+
+            <div class="header__delivery">
+                SPECIAL OFFER + FREE DELIVERY 2-4 DAYS IN SA
+            </div>
+
+            <div class="header__logo">
+                <img src="./assets/logo.svg" alt="">
+            </div>
+        </div>
+        <div class="hero">
+            <div class="hero__timer">
+                <p class="timer__text-one"> Limited offer </p>
+                <p id="timer" class="timer__text-two">04:51:16</p>
+            </div>
+            <div class="hero__sale">
+                <p class="sale__text-one"> R 250.00</p>
+                <p class="sale__text-two">R 160.00</p>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="main__header">
+                <p class="header__block-one">Excellent 4.8/5</p>
+                <p class="header__block-two">Trustpilot</p>
+                <a href="#" class="header__block-three">best selling</a>
+            </div>
+
+            <div class="main__slider">
+                <h3 class="slider__header">
+                    Orthopedic Slippers
+                </h3>
+                <div class="owl-carousel owl-theme" id="slider">
+                    <div class="slider__slide slider__slide-one"></div>
+                    <div class="slider__slide slider__slide-two"></div>
+                    <div class="slider__slide slider__slide-three"></div>
+                    <div class="slider__slide slider__slide-four"></div>
+                </div>
+
+                <div class="owl-dots-thumbnails">
+                    <div class="owl-dot-thumbnail slider__dot-thumbnail slider__dot-thumbnail-one"></div>
+                    <div class="owl-dot-thumbnail slider__dot-thumbnail slider__dot-thumbnail-three"></div>
+                    <div class="owl-dot-thumbnail slider__dot-thumbnail slider__dot-thumbnail-four"></div>
+                    <div class="owl-dot-thumbnail slider__dot-thumbnail slider__dot-thumbnail-two "></div>
+                </div>
+            </div>
+
+            <div class="main__stars">
+                <div class="stars__text">
+
+                    <p>
+                        <h4>Fast Delivery: </h4> &nbsp 2-4 days from SA</p>
+                </div>
+                <div class="stars__text">
+                    <p>
+                        <h4>In Stock: </h4> &nbsp Shipping from Johannesburg</p>
+                </div>
+                <div class="stars__block-three">
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    <div class="stars__star"></div>
+                    &nbsp (10)
+                </div>
+            </div>
+            <div class="main__selects">
+                <div class="selects__select">
+                    <p class="select__name">color</p>
+                    <button class="select__toggle" id="selectMenuButtonColor">
+                  Black
+                    </button>
+                    <div class="select__menu menu-color" aria-labelledby="selectMenuButtonColor">
+                        <a class="select__item item-color" href="#">Black</a>
+                        <a class="select__item item-color" href="#">Orange</a>
+                        <a class="select__item item-color" href="#">Pink</a>
+                        <a class="select__item item-color" href="#">Yellow</a>
+                    </div>
+                </div>
+                <div class="selects__select">
+                    <p class="select__name">size</p>
+                    <button class="select__toggle" id="selectMenuButtonSize">
+                 1
+                    </button>
+                    <div class="select__menu menu-size" aria-labelledby="selectMenuButtonSize">
+                        <a class="select__item item-size" href="#">2</a>
+                        <a class="select__item item-size" href="#">3</a>
+                        <a class="select__item item-size" href="#">4</a>
+                        <a class="select__item item-size" href="#">5</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main__buy">
+                <button class="buy__button"><a href="https://www.youtube.com"> BUY NOW</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
